@@ -1,0 +1,184 @@
+body {
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    font-size: 16px;
+    }
+
+/* Header stuffs */
+header{
+    background-color: #522215;
+    padding:1rem 2vw;
+}
+header h1{
+    margin: 0;
+    color:#f7ead9;
+    text-align: center;
+    font-size: 2.5rem;
+}
+header p{
+    margin: 0;
+    color: #f7ead9;
+    letter-spacing: .5px;
+    text-align: center;
+}
+
+
+/* Navigation stuffs */
+nav {
+    background-color: #ffc96c;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color:#522215;
+    font-weight: 900;
+    display: block;
+    padding: .95rem 1rem .83rem 1rem;
+    text-align: center;
+}
+nav a:hover{
+    color: #f7ead9;
+        background-color: #d25e45;
+}
+
+/* Main Section Here. */
+main {
+    padding: .5rem 3vw;
+}
+main h1 {
+    color: #d25e45;
+    font-size: 2.5rem;
+    text-align: center;}
+
+main h2 {
+    color: #d25e45;
+    margin-left: 2rem;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #522215;
+    margin: 0 0 .3rem 0
+}
+main ol{
+    padding: .5rem 3vw;
+    background-color: #f7ead9;
+}
+main dl dt {
+    color:#522215;
+    font-weight: 700;
+}
+main dl dd{
+    color: #522215;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type:circle;
+    color:#522215;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #d25e45;
+    padding: .5rem;
+    width: 12.5rem;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ffc96c;
+    border-radius: .8rem;
+}
+main a {
+    color:#005a4b;
+}
+main a:hover {
+    color:#a9e8dd;
+}
+
+/* image formatting stuff here */
+
+figure.wrapped img{
+    width: 100%;
+    height:auto;
+    float:center;
+}
+figure.wrapped figcaption{
+    text-align:center;
+    font-size: .75rem;
+    color:#530309;
+}
+figure.gallery{
+  margin:.5rem 2% 0 0;
+}
+figure.gallery figcaption{
+    text-align:center;
+    font-size:.75rem;
+    color:#530309;
+}
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Footer */
+footer {
+    background-color:#522215;
+    text-align: center;
+    color: #ffc96c;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color:#005a4b;
+}
+/* form stuff here */
+.myform fieldset{
+    border: #d25e45 solid 1px;
+    border-radius: 5px;
+    margin-bottom: .8rem;
+}
+.myform legend {
+    color: #d25e45;
+    font-size: 1rem;
+}
+.myform label {
+    margin: .5rem;
+}
+.myform label, .myform select, .myform [type=text], .myform[type=tel], .myform textarea{
+display:block;}
+.myform select, .myform [type=text], .myform[type=tel], .myform textarea {
+    border:solid 1px #530309;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Baloo 2', san-serif;
+    font-weight:200;
+    background-color: #d0eff6;
+}
+.myform textarea{
+height: 8rem;
+width: 25rem;
+background-color: #d0eff6;
+}
+.myform :required {
+background-color: #d0eff6;
+}
+.myform [type=submit]{
+    background-color: #d25e45;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .3rem;
+    color: white;
+    margin: 1rem 0 0 1vw;
+    font-size: 1rem;
+    font-family: "Baloo 2", sans-serif;
+}

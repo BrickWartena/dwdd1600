@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Commission your next art piece."/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="sunflowerdayz.css">
+    
+    <meta charset="UTF-8">
+    <title>Sunflower Dayz</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <h1>Sunflower Dayz</h1>
+        <p>It's been a suflower kind of day!</p>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+                        <li><a href="index.html"> Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><class="active"><a href="commission.html">Commissions</a></li>
+            <li><a href="portfolios.html">About Me</a></li>
+                        <li><a href="contact.html">Social Media</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Request a Commission</h1>
+        <form method="get" class="myform" action="thanks.html">
+            <fieldset>
+             <label>First Name* <input type="text" name="first_name"required></label>
+             <label>Last Name* <input type="text" name="last_name"required></label>
+             <label>Cell Number <input type="text" name="phone" placeholder="123-456-7890"></label>
+             <label>Email <input type="text" name="email" placeholder="12345@email.com"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Medium</legend>
+               <label><input type="radio" name="medium" value="Digital">Digital Drawing</label>
+              <label><input type="radio" name="medium" value="Acrylic/Oil">Acrylic or Oil</label>
+            <label><input type="radio" name="medium" value="Watercolor">Watercolor</label>
+            <label><input type="radio" name="medium" value="Jewelry">Jewelry</label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="digitalfile" value="digitalfile">Digital File</label>
+                <label><input type="checkbox" name="print" value="print">Print *(pick file size below)</label>
+                <label><input type="checkbox" name="original" value="original">Original Piece</label>
+
+                <br><br>
+                <label>Print Size</label>
+                 <select name="size">
+                    <option value="none">Please Select</option>
+                    <option value="small">"5"x"7" - Postcard</option>
+                    <option value="medium">"9"x"14" - Average Paper Size</option>
+                    <option value="square">"12"x"12" - Square</option>
+                    <option value="large">"16"x"20" - Poster</option>
+                    <option value="Custom">Custom - Please explain in the contents box</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label><h2>Please explain the contents of your commission!</h2>
+                    <p> Please explain desired content, elements, color palette.<br> If you have a reference photo, mention it here and once contact is established you can include it in text or email.</p>
+                    <br><textarea name="comments"></textarea></label>
+                </fieldset>
+           
+           <input type="submit" value="Request Commission">
+        </form>
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2024  |  Brie W  &bullet; <a href="mailto:email@gmail.com">Email Me</a></p>
+    </footer>
+</body>
+</html>
