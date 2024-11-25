@@ -109,7 +109,6 @@ main a:hover {
 figure.wrapped img{
     width: 100%;
     height:auto;
-    float:center;
 }
 figure.wrapped figcaption{
     text-align:center;
